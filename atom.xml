@@ -4,7 +4,7 @@
   <title><![CDATA[踏雪无痕]]></title>
   <link href="http://jaronli.github.io/atom.xml" rel="self"/>
   <link href="http://jaronli.github.io/"/>
-  <updated>2015-05-09T22:59:20+08:00</updated>
+  <updated>2015-05-09T23:34:53+08:00</updated>
   <id>http://jaronli.github.io/</id>
   <author>
     <name><![CDATA[李吉龙（Jaron）]]></name>
@@ -30,6 +30,9 @@
     <content type="html"><![CDATA[<h2>octopress介绍</h2>
 
 <h2>前提工具</h2>
+
+<!--more-->
+
 
 <h2>搭建过程</h2>
 
