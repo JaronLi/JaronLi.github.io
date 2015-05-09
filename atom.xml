@@ -4,7 +4,7 @@
   <title><![CDATA[踏雪无痕]]></title>
   <link href="http://jaronli.github.io/atom.xml" rel="self"/>
   <link href="http://jaronli.github.io/"/>
-  <updated>2015-05-09T22:05:38+08:00</updated>
+  <updated>2015-05-09T22:45:16+08:00</updated>
   <id>http://jaronli.github.io/</id>
   <author>
     <name><![CDATA[李吉龙（Jaron）]]></name>
@@ -12,6 +12,15 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[第一次使用自己搭建的博客]]></title>
+    <link href="http://jaronli.github.io/blog/2015/05/09/di-%5B%3F%5D-ci-shi-yong-zi-ji-da-jian-de-bo-ke/"/>
+    <updated>2015-05-09T22:37:19+08:00</updated>
+    <id>http://jaronli.github.io/blog/2015/05/09/di-[?]-ci-shi-yong-zi-ji-da-jian-de-bo-ke</id>
+    <content type="html"><![CDATA[<p>不能总是处于感觉上的舒适区域，或许某些让你痛苦的事情才是你应该坚持的事清</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[在github上用octopress搭建自己的博客]]></title>
