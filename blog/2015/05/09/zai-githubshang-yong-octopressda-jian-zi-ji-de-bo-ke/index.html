@@ -153,9 +153,9 @@ rake deploy #将你的博客上传到github pages，用http://username.github.io
 1.将social_share: true加入到</em>config.yml中 <em>注意冒号后面有空格</em> <br/>
 2.在source/_includes/post/sharing.html中添加:</p>
 
-<pre><code>\{ %if site.social_share % \}   
-\{ % include post/social_media.html % \}   
-\{ % endif % \}   
+<pre><code>{ %if site.social_share % }   
+{ % include post/social_media.html % }   
+{ % endif % }   
 </code></pre>
 
 <p>3.访问<a href="http://www.jiathis.com">http://www.jiathis.com</a>,复制想要的分享类型的代码，放入新建文件 <br/>
