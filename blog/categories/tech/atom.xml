@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Tech | 踏雪无痕]]></title>
   <link href="http://jaronli.github.io/blog/categories/tech/atom.xml" rel="self"/>
   <link href="http://jaronli.github.io/"/>
-  <updated>2015-05-10T19:01:02+08:00</updated>
+  <updated>2015-05-10T19:07:02+08:00</updated>
   <id>http://jaronli.github.io/</id>
   <author>
     <name><![CDATA[李吉龙（Jaron）]]></name>
@@ -36,11 +36,13 @@
 
 <hr />
 
-<p><code>git clone git://github.com/imathis/octopress.git  octopress   
-  cd octopress</code> <br/>
-  用vim 修改 Gemfile文件的source为 <a href="http://ruby.taobao.org">http://ruby.taobao.org</a>  <br/>
-  <code>bundle install   
-  rake install</code></p>
+<pre><code>git clone git://github.com/imathis/octopress.git  octopress   
+cd octopress    
+</code></pre>
+
+<p>  用vim 修改 Gemfile文件的source为 <a href="http://ruby.taobao.org">http://ruby.taobao.org</a>  <br/>
+     bundle install <br/>
+     rake install`</p>
 
 <hr />
 
@@ -71,9 +73,9 @@
 添加QQ，微信，人人等社交工具。当然我们只要使用第三方库即可。如:<a href="www.jiathis.com">jiathis</a> <br/>
 1.将social_share: true加入到</em>config.yml中 +注意冒号后面有空格+ <br/>
 2.在source/<em>includes/post/sharing.html中添加: <br/>
-<code>\{\%if site.social_share \%\}   
-    \{\% include post/social_media.html \%\}   
-\{\% endif \%\}  </code>
+   {\%if site.social_share \%} <br/>
+    {\% include post/social_media.html \%} <br/>
+    {\% endif \%} <br/>
 3.访问<a href="http://www.jiathis.com">http://www.jiathis.com</a>,复制想要的分享类型的代码，放入新建文件 <br/>
 source/</em>includes/post/social_media.html</p>
 
