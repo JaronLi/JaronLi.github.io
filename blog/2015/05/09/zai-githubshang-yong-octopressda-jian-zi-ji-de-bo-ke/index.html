@@ -117,7 +117,7 @@ cd octopress
 
 <p>  用vim 修改 Gemfile文件的source为 <a href="http://ruby.taobao.org">http://ruby.taobao.org</a>  <br/>
      bundle install <br/>
-     rake install`</p>
+     rake install</p>
 
 <hr />
 
@@ -127,7 +127,7 @@ cd octopress
 <hr />
 
 <p> 开始刷新自己的blog <br/>
- <code>rake setup_github_pages</code> <br/>
+      rake setup_github_pages   <br/>
  <code>rake new_post["title(blog的题目)"]</code> 创建你想要的文章主题 编辑产生的markdown文件
  <code>rake generate</code> 编译产生html文件，此处要求有JS环境，如果没有可以使用 <br/>
  <code>sudo apt-get install nodejs</code>，如果有忽略此处 <br/>
@@ -148,7 +148,7 @@ cd octopress
 添加QQ，微信，人人等社交工具。当然我们只要使用第三方库即可。如:<a href="www.jiathis.com">jiathis</a> <br/>
 1.将social_share: true加入到</em>config.yml中 +注意冒号后面有空格+ <br/>
 2.在source/<em>includes/post/sharing.html中添加: <br/>
-   {\%if site.social_share \%} <br/>
+    {\%if site.social_share \%} <br/>
     {\% include post/social_media.html \%} <br/>
     {\% endif \%} <br/>
 3.访问<a href="http://www.jiathis.com">http://www.jiathis.com</a>,复制想要的分享类型的代码，放入新建文件 <br/>
