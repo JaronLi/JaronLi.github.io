@@ -4,7 +4,7 @@
   <title><![CDATA[踏雪无痕]]></title>
   <link href="http://jaronli.github.io/atom.xml" rel="self"/>
   <link href="http://jaronli.github.io/"/>
-  <updated>2015-05-10T11:08:09+08:00</updated>
+  <updated>2015-05-10T11:12:55+08:00</updated>
   <id>http://jaronli.github.io/</id>
   <author>
     <name><![CDATA[李吉龙（Jaron）]]></name>
@@ -18,8 +18,12 @@
     <link href="http://jaronli.github.io/blog/2015/05/10/dui-sheng-huo-de-xiang-fa/"/>
     <updated>2015-05-10T10:54:06+08:00</updated>
     <id>http://jaronli.github.io/blog/2015/05/10/dui-sheng-huo-de-xiang-fa</id>
-    <content type="html"><![CDATA[<p>   在高楼林立的城市里习惯了身边的人埋头工作，快速的行走，  <br/>
-对身边的许多事情无动于衷，一味追求物质的满足却忽略了心灵的需要。 <br/>
+    <content type="html"><![CDATA[<p>   在高楼林立的城市里习惯了身边的人埋头工作，快速的行走，</p>
+
+<!--more-->
+
+
+<p>   对身边的许多事情无动于衷，一味追求物质的满足却忽略了心灵的需要。 <br/>
 走在湖边，走在花草与绿树中间，让心灵沉浸在这种静谧的环境中真正 <br/>
 的思考自己已经成为一种奢侈的生活。</p>
 
@@ -70,13 +74,16 @@
     <link href="http://jaronli.github.io/blog/2015/05/09/xu-yan/"/>
     <updated>2015-05-09T15:18:46+08:00</updated>
     <id>http://jaronli.github.io/blog/2015/05/09/xu-yan</id>
-    <content type="html"><![CDATA[<h1>序言</h1>
+    <content type="html"><![CDATA[<h2>小抒情</h2>
 
-<blockquote><p>时间就像狂奔的野驴，如果你不能控制住它前行的方向那么结局必然被它带至悬崖。</p>
+<p>  时间就像狂奔的野驴，如果你不能控制住它前行的方向那么结局必然被它带至悬崖。</p>
+
+<!--more-->
+
 
 <h2>写在前面</h2>
 
-<p>  经过一天的折腾，在github上搭建了自己的bolg。从此学习的知识/遇到的问题以及解决方法/心得体会都会分享到这里。</p></blockquote>
+<p>  经过一天的折腾，在github上搭建了自己的bolg。从此学习的知识/遇到的问题以及解决方法/心得体会都会分享到这里。</p>
 ]]></content>
   </entry>
   
