@@ -116,23 +116,23 @@ cd octopress
 </code></pre>
 
 <p>  用vim 修改 Gemfile文件的source为 <a href="http://ruby.taobao.org">http://ruby.taobao.org</a>  <br/>
-     bundle install <br/>
-     rake install</p>
+    bundle install <br/>
+    rake install</p>
 
 <hr />
 
 <p>  申请一个github帐号(如果没有),创建一个名为：username(你的github用户名）.github.io的Repo <br/>
-  +注意：创建的名字不能有任何不同+</p>
+  <em>注意：创建的名字不能有任何不同</em></p>
 
 <hr />
 
 <p> 开始刷新自己的blog <br/>
-      rake setup_github_pages   <br/>
- <code>rake new_post["title(blog的题目)"]</code> 创建你想要的文章主题 编辑产生的markdown文件
- <code>rake generate</code> 编译产生html文件，此处要求有JS环境，如果没有可以使用 <br/>
- <code>sudo apt-get install nodejs</code>，如果有忽略此处 <br/>
- <code>rake preview</code> 可以在本机的4000端口查看生成情况。 <br/>
- <code>rake deploy</code>将你的博客上传到github pages，用<a href="http://username.github.io%E6%9F%A5%E7%9C%8B%E3%80%82">http://username.github.io%E6%9F%A5%E7%9C%8B%E3%80%82</a></p>
+    rake setup_github_pages   <br/>
+    rake new_post[&ldquo;title(blog的题目)&rdquo;] #创建你想要的文章主题 编辑产生的markdown文件
+    rake generate #编译产生html文件，此处要求有JS环境，如果没有可以使用 <br/>
+    sudo apt-get install nodejs #如果有忽略此处 <br/>
+    rake preview #可以在本机的4000端口查看生成情况。 <br/>
+    rake deploy #将你的博客上传到github pages，用<a href="http://username.github.io%E6%9F%A5%E7%9C%8B%E3%80%82">http://username.github.io%E6%9F%A5%E7%9C%8B%E3%80%82</a></p>
 
 <hr />
 
@@ -148,9 +148,9 @@ cd octopress
 添加QQ，微信，人人等社交工具。当然我们只要使用第三方库即可。如:<a href="www.jiathis.com">jiathis</a> <br/>
 1.将social_share: true加入到</em>config.yml中 +注意冒号后面有空格+ <br/>
 2.在source/<em>includes/post/sharing.html中添加: <br/>
-    {\%if site.social_share \%} <br/>
-    {\% include post/social_media.html \%} <br/>
-    {\% endif \%} <br/>
+    { %if site.social_share % } <br/>
+    { % include post/social_media.html % } <br/>
+    { % endif % } <br/>
 3.访问<a href="http://www.jiathis.com">http://www.jiathis.com</a>,复制想要的分享类型的代码，放入新建文件 <br/>
 source/</em>includes/post/social_media.html</p>
 
@@ -162,10 +162,12 @@ source/</em>includes/post/social_media.html</p>
 
 <h3>添加一个导航页签:如about</h3>
 
-<p><code>rake new_page["about"]</code> <br/>
-这将生成一个source/about/index.markdown，在这里面输入想要的内容 <br/>
+<pre><code>rake new_page["about"]   
+</code></pre>
+
+<p>这将生成一个source/about/index.markdown，在这里面输入想要的内容 <br/>
 编辑 source/_includes/custom/navigation.html,添加 <br/>
-<code>&lt;li&gt;&lt;a href="/about"&gt;作者&lt;/a&gt;&lt;/li&gt;</code></p>
+    <li><a href="/about">作者</a></li></p>
 
 <hr />
 
