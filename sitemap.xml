@@ -23,10 +23,13 @@
     <loc>http://jaronli.github.io/</loc>
   </url>
   <url>
-    <loc>http://jaronli.github.io/first/</loc>
+    <loc>http://jaronli.github.io/about/</loc>
   </url>
   <url>
-    <loc>http://jaronli.github.io/about/</loc>
+    <loc>http://jaronli.github.io/categories/</loc>
+  </url>
+  <url>
+    <loc>http://jaronli.github.io/first/</loc>
   </url>
   <url>
     <loc>http://jaronli.github.io/blog/categories/tech/</loc>
