@@ -4,7 +4,7 @@
   <title><![CDATA[踏雪无痕]]></title>
   <link href="http://jaronli.github.io/atom.xml" rel="self"/>
   <link href="http://jaronli.github.io/"/>
-  <updated>2015-05-10T20:09:40+08:00</updated>
+  <updated>2015-05-10T20:13:05+08:00</updated>
   <id>http://jaronli.github.io/</id>
   <author>
     <name><![CDATA[李吉龙（Jaron）]]></name>
@@ -71,7 +71,7 @@ cd octopress
 </code></pre>
 
 <p>用vim 修改 Gemfile文件的source为 <a href="http://ruby.taobao.org">http://ruby.taobao.org</a>  <br/>
-    bundle install <br/>
+    bundle install
     rake install</p>
 
 <hr />
@@ -82,10 +82,10 @@ cd octopress
 <hr />
 
 <p> 开始刷新自己的blog <br/>
-    rake setup_github_pages<br/>
-    rake new_post[&ldquo;title(blog的题目)&rdquo;] #创建你想要的文章主题 编辑产生的markdown文件<br/>
-    rake generate #编译产生html文件，此处要求有JS环境，如果没有可以使用 <br/>
-    sudo apt-get install nodejs #如果有忽略此处<br/>
+    rake setup_github_pages
+    rake new_post[&ldquo;title(blog的题目)&rdquo;] #创建你想要的文章主题 编辑产生的markdown文件
+    rake generate #编译产生html文件，此处要求有JS环境，如果没有可以使用
+    sudo apt-get install nodejs #如果有忽略此处
     rake preview #可以在本机的4000端口查看生成情况.<br/>
     rake deploy #将你的博客上传到github pages，用<a href="http://username.github.io">http://username.github.io</a> 查看.</p>
 
