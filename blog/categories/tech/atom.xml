@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Tech | 踏雪无痕]]></title>
   <link href="http://jaronli.github.io/blog/categories/tech/atom.xml" rel="self"/>
   <link href="http://jaronli.github.io/"/>
-  <updated>2015-05-11T20:19:37+08:00</updated>
+  <updated>2015-05-11T20:45:24+08:00</updated>
   <id>http://jaronli.github.io/</id>
   <author>
     <name><![CDATA[李吉龙（Jaron）]]></name>
@@ -74,7 +74,7 @@ rake deploy #将你的博客上传到github pages，用http://username.github.io
 <h4>添加社交分享</h4>
 
 <p>octopress 默认带有社交分享功能，如twitter,facebook这些在<em>config.yml中可以看见。我们可以 <br/>
-添加QQ，微信，人人等社交工具。当然我们只要使用第三方库即可。如:<a href="www.jiathis.com">jiathis</a> <br/>
+添加QQ，微信，人人等社交工具。当然我们只要使用第三方库即可。如:<a href="http://www.jiathis.com">jiathis</a> <br/>
 1.将social_share: true加入到</em>config.yml中 <em>注意冒号后面有空格</em> <br/>
 2.在source/_includes/post/sharing.html中添加:</p>
 
