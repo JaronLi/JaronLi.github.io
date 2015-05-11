@@ -35,6 +35,18 @@ tech (1) Recent Posts 对生活的想法 第一次使用自己搭建的博客 Ab
 <link href="//fonts.useso.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
 <link href="//fonts.useso.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
 
+<script type="text/javascript">
+   function addBlankTargetForLinks () {
+      $('a[href^="http"]').each(function(){
+      $(this).attr('target', '_blank');
+       });
+      }
+     $(document).bind('DOMNodeInserted', function(event) {
+            addBlankTargetForLinks();
+            });
+
+</script>
+
 
   
 
