@@ -4,7 +4,7 @@
   <title><![CDATA[踏雪无痕]]></title>
   <link href="http://jaronli.github.io/atom.xml" rel="self"/>
   <link href="http://jaronli.github.io/"/>
-  <updated>2015-05-12T23:08:27+08:00</updated>
+  <updated>2015-05-12T23:11:28+08:00</updated>
   <id>http://jaronli.github.io/</id>
   <author>
     <name><![CDATA[李吉龙（Jaron）]]></name>
@@ -167,9 +167,9 @@ source/_includes/post/social_media.html</p>
     <link href="http://jaronli.github.io/blog/2015/05/09/xu-yan/"/>
     <updated>2015-05-09T15:18:46+08:00</updated>
     <id>http://jaronli.github.io/blog/2015/05/09/xu-yan</id>
-    <content type="html"><![CDATA[<h2>小抒情</h2>
+    <content type="html"><![CDATA[<p>  <img src="http://7xj0s4.com1.z0.glb.clouddn.com/life_3.JPG-blog" alt="grass" /></p>
 
-<p>  时间就像狂奔的野驴，如果你不能控制住它前行的方向那么结局必然被它带至悬崖。</p>
+<blockquote><p>时间就像狂奔的野驴，如果你不能控制住它前行的方向那么结局必然被它带至悬崖。</p></blockquote>
 
 <!--more-->
 
