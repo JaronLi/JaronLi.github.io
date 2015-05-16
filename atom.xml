@@ -4,7 +4,7 @@
   <title><![CDATA[踏雪无痕]]></title>
   <link href="http://jaronli.github.io/atom.xml" rel="self"/>
   <link href="http://jaronli.github.io/"/>
-  <updated>2015-05-14T22:40:27+08:00</updated>
+  <updated>2015-05-16T23:31:33+08:00</updated>
   <id>http://jaronli.github.io/</id>
   <author>
     <name><![CDATA[李吉龙（Jaron）]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Octopress各个部分介绍]]></title>
+    <link href="http://jaronli.github.io/blog/2015/05/16/octopressge-ge-bu-fen-jie-shao/"/>
+    <updated>2015-05-16T23:28:42+08:00</updated>
+    <id>http://jaronli.github.io/blog/2015/05/16/octopressge-ge-bu-fen-jie-shao</id>
+    <content type="html"><![CDATA[<ul>
+<li><em>这段时间忙毕业设计以及实习，等过去这段时间再更新</em></li>
+</ul>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[工作与生活]]></title>

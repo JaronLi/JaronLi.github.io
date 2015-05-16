@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: Tech | 踏雪无痕]]></title>
-  <link href="http://jaronli.github.io/blog/categories/tech/atom.xml" rel="self"/>
+  <title><![CDATA[Category: Octopress | 踏雪无痕]]></title>
+  <link href="http://jaronli.github.io/blog/categories/octopress/atom.xml" rel="self"/>
   <link href="http://jaronli.github.io/"/>
   <updated>2015-05-16T23:31:33+08:00</updated>
   <id>http://jaronli.github.io/</id>
