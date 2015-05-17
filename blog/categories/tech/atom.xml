@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Tech | 踏雪无痕]]></title>
   <link href="http://jaronli.github.io/blog/categories/tech/atom.xml" rel="self"/>
   <link href="http://jaronli.github.io/"/>
-  <updated>2015-05-17T23:02:25+08:00</updated>
+  <updated>2015-05-17T23:04:50+08:00</updated>
   <id>http://jaronli.github.io/</id>
   <author>
     <name><![CDATA[李吉龙（Jaron）]]></name>
@@ -30,21 +30,29 @@
 
 <h2>2.协议类型</h2>
 
-<p>协议是一种处理请求的方案,代表用什么样的方式来完成请求.常用协议包括:<br/>
-+ HTTP 超文本传输协议 <br/>
-+ FTP 文件传输协议 <br/>
-+ SMTP 简单邮件传输协议 等</p>
+<p>协议是一种处理请求的方案,代表用什么样的方式来完成请求.常用协议包括:</p>
+
+<ul>
+<li>HTTP 超文本传输协议</li>
+<li>FTP 文件传输协议</li>
+<li>SMTP 简单邮件传输协议 等</li>
+</ul>
+
 
 <h2>3.简述</h2>
 
 <hr />
 
 <p>一次http操作称为一个事物.它由一条请求命令和一个<br/>
-响应结果组成.每个请求都会包含一个方法.常用方法:<br/>
-+ GET    : 从服务器上获得命名资源<br/>
-+ PUT    : 将数据存储于服务器中<br/>
-+ DELETE : 从服务器上删除资源<br/>
-+ POST   : 将客户端数据发送给一个服务器网关程序</p>
+响应结果组成.每个请求都会包含一个方法.常用方法:</p>
+
+<ul>
+<li>GET    : 从服务器上获得命名资源</li>
+<li>PUT    : 将数据存储于服务器中</li>
+<li>DELETE : 从服务器上删除资源</li>
+<li>POST   : 将客户端数据发送给一个服务器网关程序</li>
+</ul>
+
 
 <hr />
 
@@ -73,12 +81,16 @@ TCP连接过程就像打公司办公室某人电话的过程,先是拨打公司<
 
 <hr />
 
-<p>相关概念<br/>
-+ 网关<br/>
-+ 代理<br/>
-+ 缓存<br/>
-+ VPN <br/>
-+ 路由</p>
+<p>相关概念</p>
+
+<ul>
+<li>网关</li>
+<li>代理</li>
+<li>缓存</li>
+<li>VPN</li>
+<li>路由</li>
+</ul>
+
 ]]></content>
   </entry>
   
