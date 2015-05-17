@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Tech | 踏雪无痕]]></title>
   <link href="http://jaronli.github.io/blog/categories/tech/atom.xml" rel="self"/>
   <link href="http://jaronli.github.io/"/>
-  <updated>2015-05-17T22:57:04+08:00</updated>
+  <updated>2015-05-17T23:02:25+08:00</updated>
   <id>http://jaronli.github.io/</id>
   <author>
     <name><![CDATA[李吉龙（Jaron）]]></name>
@@ -22,41 +22,29 @@
 
 <h2>1.URL</h2>
 
-<p>统一资源定位符(url) 是互联网上标准资源的地址.</p>
-
-<!--more-->
-
-
-<p>它实际上说明了如何从一个精确固定的位置获取资源<br/>
+<p>统一资源定位符(url) 是互联网上标准资源的地址.<!--more--><br/>
+它实际上说明了如何从一个精确固定的位置获取资源<br/>
 一般的URL包括三部分.首先是使用的协议,常用为HTTP<br/>
 然后是主机名加端口号(默认80)这两部分用:隔开<br/>
 最后一部分是想要请求的资源</p>
 
 <h2>2.协议类型</h2>
 
-<p>协议是一种处理请求的方案,代表用什么样的方式来完成请求.常用协议包括:</p>
-
-<ul>
-<li>HTTP 超文本传输协议</li>
-<li>FTP 文件传输协议</li>
-<li>SMTP 简单邮件传输协议 等</li>
-</ul>
-
+<p>协议是一种处理请求的方案,代表用什么样的方式来完成请求.常用协议包括:<br/>
++ HTTP 超文本传输协议 <br/>
++ FTP 文件传输协议 <br/>
++ SMTP 简单邮件传输协议 等</p>
 
 <h2>3.简述</h2>
 
 <hr />
 
 <p>一次http操作称为一个事物.它由一条请求命令和一个<br/>
-响应结果组成.每个请求都会包含一个方法.常用方法:</p>
-
-<ul>
-<li>GET    : 从服务器上获得命名资源</li>
-<li>PUT    : 将数据存储于服务器中</li>
-<li>DELETE : 从服务器上删除资源</li>
-<li>POST   : 将客户端数据发送给一个服务器网关程序</li>
-</ul>
-
+响应结果组成.每个请求都会包含一个方法.常用方法:<br/>
++ GET    : 从服务器上获得命名资源<br/>
++ PUT    : 将数据存储于服务器中<br/>
++ DELETE : 从服务器上删除资源<br/>
++ POST   : 将客户端数据发送给一个服务器网关程序</p>
 
 <hr />
 
@@ -85,16 +73,12 @@ TCP连接过程就像打公司办公室某人电话的过程,先是拨打公司<
 
 <hr />
 
-<p>相关概念</p>
-
-<ul>
-<li>网关</li>
-<li>代理</li>
-<li>缓存</li>
-<li>VPN</li>
-<li>路由</li>
-</ul>
-
+<p>相关概念<br/>
++ 网关<br/>
++ 代理<br/>
++ 缓存<br/>
++ VPN <br/>
++ 路由</p>
 ]]></content>
   </entry>
   
