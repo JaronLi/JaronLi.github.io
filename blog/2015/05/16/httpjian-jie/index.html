@@ -5,13 +5,17 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Octopress各个部分介绍 - 踏雪无痕</title>
+  <title>HTTP简介 - 踏雪无痕</title>
   <meta name="author" content="李吉龙（Jaron）">
 
   
-  <meta name="description" content="
-这段时间忙毕业设计以及实习，等过去这段时间再更新 ">
-  
+  <meta name="description" content="1.URL
+统一资源定位符(url) 是互联网上标准资源的地址. 它实际上说明了如何从一个精确固定的位置获取资源
+一般的URL包括三部分.首先是使用的协议,常用为HTTP
+然后是主机名加端口号(默认80)这两部分用:隔开
+最后一部分是想要请求的资源 2.协议类型
+协议是一种处理请求的方案, &hellip;">
+  <meta name="keywords" content="http,url,tcp/ip">
 
   <!-- http://t.co/dKP3o1e -->
   <meta name="HandheldFriendly" content="True">
@@ -19,7 +23,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://jaronli.github.io/blog/2015/05/16/octopressge-ge-bu-fen-jie-shao/">
+  <link rel="canonical" href="http://jaronli.github.io/blog/2015/05/16/httpjian-jie/">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="/atom.xml" rel="alternate" title="踏雪无痕" type="application/atom+xml">
@@ -90,7 +94,7 @@
   
   <header>
     
-      <h1 class="entry-title">Octopress各个部分介绍</h1>
+      <h1 class="entry-title">HTTP简介</h1>
     
     
       <p class="meta">
@@ -99,17 +103,75 @@
 
 
 
-<time class='entry-date' datetime='2015-05-16T23:28:42+08:00'><span class='date'><span class='date-month'>May</span> <span class='date-day'>16</span><span class='date-suffix'>th</span>, <span class='date-year'>2015</span></span> <span class='time'>11:28 pm</span></time>
+<time class='entry-date' datetime='2015-05-16T23:36:34+08:00'><span class='date'><span class='date-month'>May</span> <span class='date-day'>16</span><span class='date-suffix'>th</span>, <span class='date-year'>2015</span></span> <span class='time'>11:36 pm</span></time>
         
       </p>
     
   </header>
 
 
-<div class="entry-content"><ul>
-<li><em>这段时间忙毕业设计以及实习，等过去这段时间再更新</em></li>
-</ul>
+<div class="entry-content"><p><img src="http://7xj0s4.com1.z0.glb.clouddn.com/life_5.jpg" alt="life-5" /><br/>
+1.URL
+统一资源定位符(url) 是互联网上标准资源的地址.</p>
 
+<!--more-->
+
+
+<p>它实际上说明了如何从一个精确固定的位置获取资源<br/>
+一般的URL包括三部分.首先是使用的协议,常用为HTTP<br/>
+然后是主机名加端口号(默认80)这两部分用:隔开<br/>
+最后一部分是想要请求的资源</p>
+
+<p>2.协议类型<br/>
+协议是一种处理请求的方案,代表用什么样的方式来完成请求.常用协议包括:<br/>
+* HTTP 超文本传输协议<br/>
+* FTP 文件传输协议<br/>
+* SMTP 简单邮件传输协议 等</p>
+
+<p>3.简述</p>
+
+<hr />
+
+<p>一次http操作称为一个事物.它由一条请求命令和一个<br/>
+响应结果组成.每个请求都会包含一个方法.常用方法:<br/>
+* GET    : 从服务器上获得命名资源<br/>
+* PUT    : 将数据存储于服务器中<br/>
+* DELETE : 从服务器上删除资源<br/>
+* POST   : 将客户端数据发送给一个服务器网关程序</p>
+
+<hr />
+
+<p>然而http是应用层协议,由于它假设传输是可靠的,因此<br/>
+它只负责请求资源与响应而不关注在网络中怎样与服务器<br/>
+通信的问题.TCP/IP协议负责完成内容传输.<br/>
+层次说明 : <br/>
+HTTP          应用层<br/>
+TCP           传输层<br/>
+IP            网络层<br/>
+TCP实际为http传输建立一条连接(可理解为信息传输的道 )
+TCP连接过程就像打公司办公室某人电话的过程,先是拨打公司<br/>
+号码进入正确机构再次拨打想要联系的人的分机号码.</p>
+
+<hr />
+
+<p>http请求及响应过程说明<br/>
+1.在地址栏中输入URL<br/>
+2.浏览器将URL中解析出服务器主机名<br/>
+3.浏览器将服务器主机名解析成服务器IP地址<br/>
+4.浏览器将端口号(如果有的话)从URL中解析出来<br/>
+5.浏览器建立一条与服务器的TCP连接<br/>
+6.浏览器向服务器发送一个HTTP请求<br/>
+7.服务器向浏览器发送一个响应<br/>
+8.关闭链接  显示资源</p>
+
+<hr />
+
+<p>相关概念
+* 网关<br/>
+* 代理<br/>
+* 缓存<br/>
+* VPN <br/>
+* 路由</p>
 </div>
 
 
@@ -125,12 +187,12 @@
 
 
 
-<time class='entry-date' datetime='2015-05-16T23:28:42+08:00'><span class='date'><span class='date-month'>May</span> <span class='date-day'>16</span><span class='date-suffix'>th</span>, <span class='date-year'>2015</span></span> <span class='time'>11:28 pm</span></time>
+<time class='entry-date' datetime='2015-05-16T23:36:34+08:00'><span class='date'><span class='date-month'>May</span> <span class='date-day'>16</span><span class='date-suffix'>th</span>, <span class='date-year'>2015</span></span> <span class='time'>11:36 pm</span></time>
       
 
 <span class="categories">
   
-    <a class='category' href='/blog/categories/octopress/'>octopress</a>, <a class='category' href='/blog/categories/tech/'>tech</a>
+    <a class='category' href='/blog/categories/http/'>http</a>, <a class='category' href='/blog/categories/tech/'>tech</a>
   
 </span>
 
@@ -166,10 +228,8 @@
     
     <p class="meta">
       
-        <a class="basic-alignment left" href="/blog/2015/05/14/gong-zuo-yu-sheng-huo/" title="Previous Post: 工作与生活">&laquo; 工作与生活</a>
+        <a class="basic-alignment left" href="/blog/2015/05/16/octopressge-ge-bu-fen-jie-shao/" title="Previous Post: Octopress各个部分介绍">&laquo; Octopress各个部分介绍</a>
       
-      
-        <a class="basic-alignment right" href="/blog/2015/05/16/httpjian-jie/" title="Next Post: HTTP简介">HTTP简介 &raquo;</a>
       
     </p>
   </footer>
