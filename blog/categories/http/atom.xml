@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Http | 踏雪无痕]]></title>
   <link href="http://jaronli.github.io/blog/categories/http/atom.xml" rel="self"/>
   <link href="http://jaronli.github.io/"/>
-  <updated>2015-05-17T22:38:29+08:00</updated>
+  <updated>2015-05-17T22:45:16+08:00</updated>
   <id>http://jaronli.github.io/</id>
   <author>
     <name><![CDATA[李吉龙（Jaron）]]></name>
@@ -18,9 +18,11 @@
     <link href="http://jaronli.github.io/blog/2015/05/16/httpjian-jie/"/>
     <updated>2015-05-16T23:36:34+08:00</updated>
     <id>http://jaronli.github.io/blog/2015/05/16/httpjian-jie</id>
-    <content type="html"><![CDATA[<p><img src="http://7xj0s4.com1.z0.glb.clouddn.com/life_5.jpg" alt="life-5" /><br/>
-1.URL
-统一资源定位符(url) 是互联网上标准资源的地址.</p>
+    <content type="html"><![CDATA[<p><img src="http://7xj0s4.com1.z0.glb.clouddn.com/life_5.jpg-blog" alt="life-5" /></p>
+
+<h2>1.URL</h2>
+
+<p>统一资源定位符(url) 是互联网上标准资源的地址.</p>
 
 <!--more-->
 
@@ -30,22 +32,23 @@
 然后是主机名加端口号(默认80)这两部分用:隔开<br/>
 最后一部分是想要请求的资源</p>
 
-<p>2.协议类型<br/>
-协议是一种处理请求的方案,代表用什么样的方式来完成请求.常用协议包括:<br/>
-* HTTP 超文本传输协议<br/>
-* FTP 文件传输协议<br/>
-* SMTP 简单邮件传输协议 等</p>
+<h2>2.协议类型</h2>
 
-<p>3.简述</p>
+<p>协议是一种处理请求的方案,代表用什么样的方式来完成请求.常用协议包括:<br/>
+<em>HTTP 超文本传输协议<br/>
+</em>FTP 文件传输协议<br/>
+*SMTP 简单邮件传输协议 等</p>
+
+<h2>3.简述</h2>
 
 <hr />
 
 <p>一次http操作称为一个事物.它由一条请求命令和一个<br/>
 响应结果组成.每个请求都会包含一个方法.常用方法:<br/>
-* GET    : 从服务器上获得命名资源<br/>
-* PUT    : 将数据存储于服务器中<br/>
-* DELETE : 从服务器上删除资源<br/>
-* POST   : 将客户端数据发送给一个服务器网关程序</p>
+<em>GET    : 从服务器上获得命名资源<br/>
+</em>PUT    : 将数据存储于服务器中<br/>
+<em>DELETE : 从服务器上删除资源<br/>
+</em>POST   : 将客户端数据发送给一个服务器网关程序</p>
 
 <hr />
 
@@ -53,10 +56,10 @@
 它只负责请求资源与响应而不关注在网络中怎样与服务器<br/>
 通信的问题.TCP/IP协议负责完成内容传输.<br/>
 层次说明 : <br/>
-HTTP          应用层<br/>
-TCP           传输层<br/>
-IP            网络层<br/>
-TCP实际为http传输建立一条连接(可理解为信息传输的道 )
+HTTP             应用层<br/>
+TCP              传输层<br/>
+IP               网络层<br/>
+TCP实际为http传输建立一条连接(可理解为信息传输的道 ) <br/>
 TCP连接过程就像打公司办公室某人电话的过程,先是拨打公司<br/>
 号码进入正确机构再次拨打想要联系的人的分机号码.</p>
 
@@ -74,12 +77,12 @@ TCP连接过程就像打公司办公室某人电话的过程,先是拨打公司<
 
 <hr />
 
-<p>相关概念
-* 网关<br/>
-* 代理<br/>
-* 缓存<br/>
-* VPN <br/>
-* 路由</p>
+<p>相关概念<br/>
+<em>网关<br/>
+</em>代理<br/>
+<em>缓存<br/>
+</em>VPN <br/>
+*路由</p>
 ]]></content>
   </entry>
   
