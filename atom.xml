@@ -4,11 +4,7 @@
   <title><![CDATA[踏雪无痕]]></title>
   <link href="http://jaronli.github.io/atom.xml" rel="self"/>
   <link href="http://jaronli.github.io/"/>
-<<<<<<< HEAD
-  <updated>2016-02-26T16:57:39+08:00</updated>
-=======
-  <updated>2015-05-26T22:20:15+08:00</updated>
->>>>>>> 00b1c58a81bce2439bba3c32fcb6d24c6a58c281
+  <updated>2016-02-26T17:24:51+08:00</updated>
   <id>http://jaronli.github.io/</id>
   <author>
     <name><![CDATA[李吉龙（Jaron）]]></name>
@@ -18,30 +14,11 @@
 
   
   <entry>
-<<<<<<< HEAD
     <title type="html"><![CDATA[Java静态工厂方法与构造方法]]></title>
     <link href="http://jaronli.github.io/blog/2016/02/26/javajing-tai-gong-han-fang-fa-yu-gou-zao-fang-fa/"/>
     <updated>2016-02-26T16:51:40+08:00</updated>
     <id>http://jaronli.github.io/blog/2016/02/26/javajing-tai-gong-han-fang-fa-yu-gou-zao-fang-fa</id>
     <content type="html"><![CDATA[
-=======
-    <title type="html"><![CDATA[感恩]]></title>
-    <link href="http://jaronli.github.io/blog/2015/05/26/gan-en/"/>
-    <updated>2015-05-26T21:15:42+08:00</updated>
-    <id>http://jaronli.github.io/blog/2015/05/26/gan-en</id>
-    <content type="html"><![CDATA[<p><img src="http://7xj0s4.com1.z0.glb.clouddn.com/life_6.jpg-blog" alt="石子-大海" /></p>
-
-<blockquote><p>生活中要懂得感恩。 <br/>
- <!--more--></p></blockquote>
-
-<p> 生活中要做一个懂得感恩的人。或许你身边有许多人不懂感恩<br/>
-但那并不是你可以放弃感恩的理由。没有什么事是别人应该为<br/>
-你做的。</p>
-
-<p>  只有你懂的感恩，你才会收到更多的真心相待。行为上远离 <br/>
-不懂感恩的人，保持自己那颗感恩的心。我相信，你一定会从<br/>
-感恩之中受益匪浅。</p>
->>>>>>> 00b1c58a81bce2439bba3c32fcb6d24c6a58c281
 ]]></content>
   </entry>
   
@@ -127,94 +104,6 @@ TCP连接过程就像打公司办公室某人电话的过程,先是拨打公司<
   </entry>
   
   <entry>
-<<<<<<< HEAD
-=======
-    <title type="html"><![CDATA[Octopress各个部分介绍]]></title>
-    <link href="http://jaronli.github.io/blog/2015/05/16/octopressge-ge-bu-fen-jie-shao/"/>
-    <updated>2015-05-16T23:28:42+08:00</updated>
-    <id>http://jaronli.github.io/blog/2015/05/16/octopressge-ge-bu-fen-jie-shao</id>
-    <content type="html"><![CDATA[<ul>
-<li><em>这段时间忙毕业设计以及实习，等过去这段时间再更新</em></li>
-</ul>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[工作与生活]]></title>
-    <link href="http://jaronli.github.io/blog/2015/05/14/gong-zuo-yu-sheng-huo/"/>
-    <updated>2015-05-14T22:05:21+08:00</updated>
-    <id>http://jaronli.github.io/blog/2015/05/14/gong-zuo-yu-sheng-huo</id>
-    <content type="html"><![CDATA[<p><img src="http://7xj0s4.com1.z0.glb.clouddn.com/life_4.jpg-blog" alt="life" /></p>
-
-<blockquote><p>假如生活欺骗了你，不要伤悲不要心急。风雨必将过去，阳光终将到来。</p></blockquote>
-
-<p> <!--more--><br/>
- 大四下班学期在SAP实习。过着一天24个小时，1/3休息，1/3工作，<br/>
- 1/3吃饭锻炼加学习的生活。一天天重复着同样的工作，忙着与数据，
- JOB，SAP系统打交道。工作的时候一天真正空闲的时间没有很多。</p>
-
-<p> 有的人安于SAP的工作，有的人在周末进行业余充电增加自己知识。<br/>
- 我知道为了生存的工作不是我想要的，那样的工作是出卖自己的 <br/>
- 生命，人人都要工作但是我要选择真正热爱的事情，将工作当作自 <br/>
- 己的事情去做而不是当成一种负担不是一种谋生工具。于我而言谋<br/>
- 生应该是工作的副产品,绝不是工作的目的。只有不断的丰富自己的<br/>
- 知识才能够做自己想要做的事情。</p>
-
-<p> 生于忧患，死于安乐。一味的沉浸在生活的安逸之中，容易迷失自<br/>
- 己的心智。向上的生活才会让自己更加精神。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[毕业前夕]]></title>
-    <link href="http://jaronli.github.io/blog/2015/05/11/bi-ye-qian-xi/"/>
-    <updated>2015-05-11T23:12:35+08:00</updated>
-    <id>http://jaronli.github.io/blog/2015/05/11/bi-ye-qian-xi</id>
-    <content type="html"><![CDATA[<p> <img src="http://7xj0s4.com1.z0.glb.clouddn.com/life_2.jpg-blog" alt="tree" /></p>
-
-<blockquote><p>一个人的成功，只有15%归结于他的专业知识，另外的85%要归结于他的表达思想/领导他人及唤起他人热情的能力。</p></blockquote>
-
-<p> <!--more--></p>
-
-<p> 四年大学生涯就要结束了，心中说不出的滋味。酸甜苦辣尽在不言中，对我而言更多的是感慨。<br/>
- <em>时光飞逝却始终跟不上它的脚步</em><br/>
- <em>岁月匆匆却永远不知何时为止</em><br/>
- <em>或许人生就这样简简单单的过去</em><br/>
- <em>心中留有的却是不甘平庸</em><br/>
- <em>那时的豪言壮语仍在心中</em><br/>
- <em>我相信  我们的一生不该也不应平淡无为</em><br/>
- <em>不是因为我们有多么的不同</em><br/>
- <em>而是因为我们必须珍惜仅有一次的生命</em></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[对生活的想法]]></title>
-    <link href="http://jaronli.github.io/blog/2015/05/10/dui-sheng-huo-de-xiang-fa/"/>
-    <updated>2015-05-10T10:54:06+08:00</updated>
-    <id>http://jaronli.github.io/blog/2015/05/10/dui-sheng-huo-de-xiang-fa</id>
-    <content type="html"><![CDATA[<p>  <img src="http://7xj0s4.com1.z0.glb.clouddn.com/life_1.jpg-blog" alt="sea" /></p>
-
-<blockquote><p>生活的最有意义的人，并不就是年龄最大的人，而是对生活最有感受的人</p></blockquote>
-
-<!--more-->
-
-
-<p>   在高楼林立的城市里习惯了身边的人埋头工作，快速的行走，  <br/>
-   对身边的许多事情无动于衷，一味追求物质的满足却忽略了心灵的需要。 <br/>
-走在湖边，走在花草与绿树中间，让心灵沉浸在这种静谧的环境中真正 <br/>
-的思考自己已经成为一种奢侈的生活。</p>
-
-<p>  人应该是努力向上的，但是不能失去去自我。人不是工作的机器， <br/>
-  必须有自己的追求。如果一个人从来没有想过到底什么样的生活 <br/>
-  是自己想要的，那么将来有一天自己关注这个问题的时候会因自 <br/>
-  己没有早想明白这个问题而追悔莫及。</p>
-]]></content>
-  </entry>
-  
-  <entry>
->>>>>>> 00b1c58a81bce2439bba3c32fcb6d24c6a58c281
     <title type="html"><![CDATA[在github上用octopress搭建自己的博客]]></title>
     <link href="http://jaronli.github.io/blog/2015/05/09/zai-githubshang-yong-octopressda-jian-zi-ji-de-bo-ke/"/>
     <updated>2015-05-09T15:37:39+08:00</updated>
@@ -316,25 +205,4 @@ source/_includes/post/social_media.html</p>
 ]]></content>
   </entry>
   
-<<<<<<< HEAD
-=======
-  <entry>
-    <title type="html"><![CDATA[序言]]></title>
-    <link href="http://jaronli.github.io/blog/2015/05/09/xu-yan/"/>
-    <updated>2015-05-09T15:18:46+08:00</updated>
-    <id>http://jaronli.github.io/blog/2015/05/09/xu-yan</id>
-    <content type="html"><![CDATA[<p>  <img src="http://7xj0s4.com1.z0.glb.clouddn.com/life_3.JPG-blog" alt="grass" /></p>
-
-<blockquote><p>时间就像狂奔的野驴，如果你不能控制住它前行的方向那么结局必然被它带至悬崖。</p></blockquote>
-
-<!--more-->
-
-
-<h2>写在前面</h2>
-
-<p>  经过一天的折腾，在github上搭建了自己的bolg。从此学习的知识/遇到的问题以及解决方法/心得体会都会分享到这里。</p>
-]]></content>
-  </entry>
-  
->>>>>>> 00b1c58a81bce2439bba3c32fcb6d24c6a58c281
 </feed>
