@@ -9,9 +9,9 @@
   <meta name="author" content="李吉龙（Jaron）">
 
   
-  <meta name="description" content=">java中new用于创建对象，构造方法用于初始化对象。但是创建、初始化是一起的，
+  <meta name="description" content="java中new用于创建对象，构造方法用于初始化对象。但是创建、初始化是一起的，
 不可单独存在。 创建一个类的时候，通常可以提供两种产生类的对象的方式,常用的是提供public
-的构造器。还有一种是静态工厂方法。 静态工厂方法 静态工厂方法首先是静态的，它会返回一个类的实例。首先举一个常见例子 &hellip;&#8221;>
+的构造器。还有一种是静态工厂方法。 静态工厂方法 静态工厂方法首先是静态的，它会返回一个类的实例。首先举一个常见例子 &hellip;">
   <meta name="keywords" content="java 静态工厂方法 构造方法 单例">
 
   <!-- http://t.co/dKP3o1e -->
@@ -86,50 +86,49 @@
   </header>
 
 
-<div class="entry-content"><p><img src="http://7xj0s4.com1.z0.glb.clouddn.com/life_1.jpg" alt="life-1" />
-    >java中new用于创建对象，构造方法用于初始化对象。但是创建、初始化是一起的，
-不可单独存在。
+<div class="entry-content"><p><img src="http://7xj0s4.com1.z0.glb.clouddn.com/life_1.jpg" alt="life-1" /></p>
+
+<blockquote><p>java中new用于创建对象，构造方法用于初始化对象。但是创建、初始化是一起的，
+不可单独存在。  <br/>
     创建一个类的时候，通常可以提供两种产生类的对象的方式,常用的是提供public
-的构造器。还有一种是静态工厂方法。</p>
+的构造器。还有一种是静态工厂方法。</p></blockquote>
 
 <!--more-->
 
 
 <h2>静态工厂方法</h2>
 
-<pre><code>静态工厂方法首先是静态的，它会返回一个类的实例。首先举一个常见例子
-</code></pre>
+<p>   静态工厂方法首先是静态的，它会返回一个类的实例。首先举一个常见例子</p>
 
 <figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
 <span class='line-number'>3</span>
 </pre></td><td class='code'><pre><code class=''><span class='line'>public static Boolean valueOf(boolean b){
 </span><span class='line'>    return b?Boolean.TRUE:Boolean.FALSE;
-</span><span class='line'>}
-</span></code></pre></td></tr></table></div></figure>
+</span><span class='line'>}</span></code></pre></td></tr></table></div></figure>
 
 
 <h3>静态工厂方法提供类的实例相比构造器有以下优点</h3>
 
-<p>1.静态工厂方法有名称。
-    在一个类中若要有多个构造器那么唯一的方法就是重载，但是它们的名称确是相同
-的。静态工厂方法给你可以仔细思考有意义的方法名称的机会。
-2.不必每次调用时都创建一个新的对象。
-    不可变类以及单例情形等是不需要每次使用对象都创建一次的。使用静态工厂方法
-允许预先在类中构建好实例，调用方法时返回此实例。即每次调用虽然返回一个对象但
-并没有频繁的执行创建对象的操作。
-3.可以返回原返回类型的任何子类型的对象。
-    对于这一点可以参照设计模式中的工厂模式。通过再静态工厂方法中添加条件判断
-语句，根据不同的条件返回不同类型的对象。如Animal类有Dog和People两个子类，可以
-通过像静态工厂方法中传入一个参数，通过判断参数来确定是返回Dog还是People类的对
-象。
+<p>1.静态工厂方法有名称。 <br/>
+   在一个类中若要有多个构造器那么唯一的方法就是重载，但是它们的名称确是相同 <br/>
+的。静态工厂方法给你可以仔细思考有意义的方法名称的机会。 <br/>
+2.不必每次调用时都创建一个新的对象。 <br/>
+   不可变类以及单例情形等是不需要每次使用对象都创建一次的。使用静态工厂方法 <br/>
+允许预先在类中构建好实例，调用方法时返回此实例。即每次调用虽然返回一个对象但 <br/>
+并没有频繁的执行创建对象的操作。 <br/>
+3.可以返回原返回类型的任何子类型的对象。 <br/>
+   对于这一点可以参照设计模式中的工厂模式。通过再静态工厂方法中添加条件判断 <br/>
+语句，根据不同的条件返回不同类型的对象。如Animal类有Dog和People两个子类，可以 <br/>
+通过像静态工厂方法中传入一个参数，通过判断参数来确定是返回Dog还是People类的对 <br/>
+象。 <br/>
 4.创建参数化类型实例时，使代码变得更加简洁。</p>
 
 <h3>静态工厂方法提供实例的缺点</h3>
 
-<p>1.如果类中构造器私有化，那么不能进行子类化。
-    构造器私有化意味着不能再类的外部进行调用，因此不能够被继承。但是这种情况
-反而仍然可以使用复合的方式来将类的功能带到其他的类中。
+<p>1.如果类中构造器私有化，那么不能进行子类化。 <br/>
+   构造器私有化意味着不能再类的外部进行调用，因此不能够被继承。但是这种情况 <br/>
+反而仍然可以使用复合的方式来将类的功能带到其他的类中。 <br/>
 2.它们与普通的静态方法没有任何区别</p>
 </div>
 
