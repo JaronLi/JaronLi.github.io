@@ -4,7 +4,7 @@
   <title><![CDATA[踏雪无痕]]></title>
   <link href="http://www.dxyds.com/atom.xml" rel="self"/>
   <link href="http://www.dxyds.com/"/>
-  <updated>2016-03-21T22:58:17+08:00</updated>
+  <updated>2016-04-07T23:37:04+08:00</updated>
   <id>http://www.dxyds.com/</id>
   <author>
     <name><![CDATA[李吉龙（Jaron）]]></name>
@@ -12,6 +12,83 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Java虚拟机一]]></title>
+    <link href="http://www.dxyds.com/blog/2016/03/30/javaxu-ni-ji-%5B%3F%5D/"/>
+    <updated>2016-03-30T23:52:06+08:00</updated>
+    <id>http://www.dxyds.com/blog/2016/03/30/javaxu-ni-ji-[?]</id>
+    <content type="html"><![CDATA[<p>学习Java不能够不了解JVM，有关JVM的知识分为    <br/>
+++JVM的运行时数据区组成   <br/>
+++各个数据区容易发生的异常    <br/>
+++垃圾回收算法以及垃圾回收器      <br/>
+++class结构   <br/>
+++类加载机制  <br/>
+等几部分。</p>
+
+<!--more-->
+
+
+<p></p>
+
+<h3>各个部分简单介绍</h3>
+
+<p>JVM运行时数据区分为程序计数器，本地方法栈，栈（这三项是线程私有，不共享的），堆，方法区（这两项是线程共享的）。   <br/>
+其中HotSpot（sun提供的虚拟机）将本地方法栈与栈合二为一。  <br/>
+1.栈内存放的是栈帧（一块空间），每个栈帧对应一个被调用的方法。符合栈的后进先出特性，每次运行一个方法就会产生一个  <br/>
+栈帧压入栈内，记录了包括局部变量表 操作数 方法返回地址等信息，如果方法内继续调用方法，那么会再入栈一个栈帧（递归  <br/>
+容易造成栈溢出）当执行完一个方法时，栈帧弹出。<br/>
+2.堆内存放对象本身以及数组等。堆可分为新生代与老年代（在垃圾回收部分具体介绍）。  <br/>
+3.方法区存放了使用的类的信息以及运行时常量池等</p>
+
+<h3>两个溢出的程序</h3>
+
+<p>1.堆溢出  <br/>
+使堆溢出的关键是不断产生不被回收的对象。</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>public class HeapOutOfMemory{   
+</span><span class='line'>    public static void main(String []args){     
+</span><span class='line'>        List&lt;String&gt; list = new ArrayList&lt;String&gt;()；   
+</span><span class='line'>        while(true){    
+</span><span class='line'>            list.add("abc");    
+</span><span class='line'>        }   
+</span><span class='line'>    }   
+</span><span class='line'>}   </span></code></pre></td></tr></table></div></figure>
+
+
+<p>  <br/>
+2.栈溢出  <br/>
+使栈溢出要不断的产生栈帧，递归的调用方法正适合做案例。</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>public class StackOverFlow{     
+</span><span class='line'>    public StackOverFlow(){     
+</span><span class='line'>        new StackOverFlow();    
+</span><span class='line'>    }  
+</span><span class='line'>    public static void main(String[] args){     
+</span><span class='line'>        StackOverFlow sof = new StackOverFlow();    
+</span><span class='line'>    }   
+</span><span class='line'>}   </span></code></pre></td></tr></table></div></figure>
+
+
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Java参数传递]]></title>
