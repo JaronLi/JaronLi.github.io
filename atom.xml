@@ -4,7 +4,7 @@
   <title><![CDATA[踏雪无痕]]></title>
   <link href="http://www.dxyds.com/atom.xml" rel="self"/>
   <link href="http://www.dxyds.com/"/>
-  <updated>2016-04-13T22:04:49+08:00</updated>
+  <updated>2016-04-13T22:13:20+08:00</updated>
   <id>http://www.dxyds.com/</id>
   <author>
     <name><![CDATA[李吉龙（Jaron）]]></name>
@@ -95,8 +95,7 @@
     <link href="http://www.dxyds.com/blog/2016/03/21/javacan-shu-chuan-di/"/>
     <updated>2016-03-21T21:32:57+08:00</updated>
     <id>http://www.dxyds.com/blog/2016/03/21/javacan-shu-chuan-di</id>
-    <content type="html"><![CDATA[<p><img src="http://7xj0s4.com1.z0.glb.clouddn.com/life_4.jpg-blog" alt="life-4" />
-在java方法里传递参数，往往会有传递值还是传递引用的说法。像下面这段代码</p>
+    <content type="html"><![CDATA[<p>在java方法里传递参数，往往会有传递值还是传递引用的说法。像下面这段代码</p>
 
 <!--more-->
 
@@ -158,9 +157,7 @@
     <link href="http://www.dxyds.com/blog/2016/02/26/javajing-tai-gong-han-fang-fa-yu-gou-zao-fang-fa/"/>
     <updated>2016-02-26T16:51:40+08:00</updated>
     <id>http://www.dxyds.com/blog/2016/02/26/javajing-tai-gong-han-fang-fa-yu-gou-zao-fang-fa</id>
-    <content type="html"><![CDATA[<p><img src="http://7xj0s4.com1.z0.glb.clouddn.com/life_1.jpg" alt="life-1" /></p>
-
-<blockquote><p>java中new用于创建对象，构造方法用于初始化对象。但是创建、初始化是一起的，
+    <content type="html"><![CDATA[<blockquote><p>java中new用于创建对象，构造方法用于初始化对象。但是创建、初始化是一起的，
 不可单独存在。  <br/>
     创建一个类的时候，通常可以提供两种产生类的对象的方式,常用的是提供public
 的构造器。还有一种是静态工厂方法。</p></blockquote>
@@ -210,9 +207,7 @@
     <link href="http://www.dxyds.com/blog/2015/05/16/httpjian-jie/"/>
     <updated>2015-05-16T23:36:34+08:00</updated>
     <id>http://www.dxyds.com/blog/2015/05/16/httpjian-jie</id>
-    <content type="html"><![CDATA[<p><img src="http://7xj0s4.com1.z0.glb.clouddn.com/life_5.jpg-blog" alt="life-5" /></p>
-
-<h2>1.URL</h2>
+    <content type="html"><![CDATA[<h2>1.URL</h2>
 
 <p>统一资源定位符(url) 是互联网上标准资源的地址.<!--more--><br/>
 它实际上说明了如何从一个精确固定的位置获取资源<br/>
