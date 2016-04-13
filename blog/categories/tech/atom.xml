@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Tech | 踏雪无痕]]></title>
   <link href="http://www.dxyds.com/blog/categories/tech/atom.xml" rel="self"/>
   <link href="http://www.dxyds.com/"/>
-  <updated>2016-04-07T23:37:04+08:00</updated>
+  <updated>2016-04-13T22:04:49+08:00</updated>
   <id>http://www.dxyds.com/</id>
   <author>
     <name><![CDATA[李吉龙（Jaron）]]></name>
@@ -19,11 +19,11 @@
     <updated>2016-03-30T23:52:06+08:00</updated>
     <id>http://www.dxyds.com/blog/2016/03/30/javaxu-ni-ji-[?]</id>
     <content type="html"><![CDATA[<p>学习Java不能够不了解JVM，有关JVM的知识分为    <br/>
-++JVM的运行时数据区组成   <br/>
-++各个数据区容易发生的异常    <br/>
-++垃圾回收算法以及垃圾回收器      <br/>
-++class结构   <br/>
-++类加载机制  <br/>
+<em>JVM的运行时数据区组成   <br/>
+</em>各个数据区容易发生的异常    <br/>
+<em>垃圾回收算法以及垃圾回收器      <br/>
+</em>class结构   <br/>
+*类加载机制  <br/>
 等几部分。</p>
 
 <!--more-->
