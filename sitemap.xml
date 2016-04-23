@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
+<loc>http://www.dxyds.com/blog/2016/04/24/bing-fa-bian-cheng-shi-zhan-%255B%253F%255D-xian-cheng-an-quan-ji-chu/</loc>
+<lastmod>2016-04-24T00:07:10+08:00</lastmod>
+</url>
+<url>
 <loc>http://www.dxyds.com/blog/2016/04/15/tao-bao-ji-zhu-zhe-shi-nian-tao-bao-jia-gou-bian-hua/</loc>
 <lastmod>2016-04-15T11:45:04+08:00</lastmod>
 </url>
@@ -56,5 +60,8 @@
 </url>
 <url>
 <loc>http://www.dxyds.com/blog/categories/jia-gou/</loc>
+</url>
+<url>
+<loc>http://www.dxyds.com/blog/categories/bing-fa-bian-cheng-shi-zhan/</loc>
 </url>
 </urlset>
