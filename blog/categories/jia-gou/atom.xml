@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: 架构 | 踏雪无痕]]></title>
+  <link href="http://www.dxyds.com/blog/categories/jia-gou/atom.xml" rel="self"/>
+  <link href="http://www.dxyds.com/"/>
+  <updated>2016-04-24T00:02:29+08:00</updated>
+  <id>http://www.dxyds.com/</id>
+  <author>
+    <name><![CDATA[李吉龙（Jaron）]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[淘宝技术这十年-淘宝架构变化]]></title>
+    <link href="http://www.dxyds.com/blog/2016/04/15/tao-bao-ji-zhu-zhe-shi-nian-tao-bao-jia-gou-bian-hua/"/>
+    <updated>2016-04-15T11:45:04+08:00</updated>
+    <id>http://www.dxyds.com/blog/2016/04/15/tao-bao-ji-zhu-zhe-shi-nian-tao-bao-jia-gou-bian-hua</id>
+    <content type="html"><![CDATA[<pre><code>每年光棍节都是狂欢的日子，同时也是淘宝网强势宣传网站高并发的日子。看着   
+</code></pre>
+
+<p>几百亿的成交量，背后</p>
+]]></content>
+  </entry>
+  
+</feed>

@@ -4,7 +4,7 @@
   <title><![CDATA[踏雪无痕]]></title>
   <link href="http://www.dxyds.com/atom.xml" rel="self"/>
   <link href="http://www.dxyds.com/"/>
-  <updated>2016-04-15T11:30:18+08:00</updated>
+  <updated>2016-04-24T00:02:29+08:00</updated>
   <id>http://www.dxyds.com/</id>
   <author>
     <name><![CDATA[李吉龙（Jaron）]]></name>
@@ -14,16 +14,28 @@
 
   
   <entry>
+    <title type="html"><![CDATA[淘宝技术这十年-淘宝架构变化]]></title>
+    <link href="http://www.dxyds.com/blog/2016/04/15/tao-bao-ji-zhu-zhe-shi-nian-tao-bao-jia-gou-bian-hua/"/>
+    <updated>2016-04-15T11:45:04+08:00</updated>
+    <id>http://www.dxyds.com/blog/2016/04/15/tao-bao-ji-zhu-zhe-shi-nian-tao-bao-jia-gou-bian-hua</id>
+    <content type="html"><![CDATA[<pre><code>每年光棍节都是狂欢的日子，同时也是淘宝网强势宣传网站高并发的日子。看着   
+</code></pre>
+
+<p>几百亿的成交量，背后</p>
+]]></content>
+  </entry>
+  
+  <entry>
     <title type="html"><![CDATA[Java虚拟机一]]></title>
     <link href="http://www.dxyds.com/blog/2016/03/30/javaxu-ni-ji-%5B%3F%5D/"/>
     <updated>2016-03-30T23:52:06+08:00</updated>
     <id>http://www.dxyds.com/blog/2016/03/30/javaxu-ni-ji-[?]</id>
     <content type="html"><![CDATA[<p>学习Java不能够不了解JVM，有关JVM的知识分为    <br/>
-<em>JVM的运行时数据区组成   <br/>
-</em>各个数据区容易发生的异常    <br/>
-<em>垃圾回收算法以及垃圾回收器      <br/>
-</em>class结构   <br/>
-*类加载机制  <br/>
+* JVM的运行时数据区组成   <br/>
+* 各个数据区容易发生的异常    <br/>
+* 垃圾回收算法以及垃圾回收器      <br/>
+* class结构   <br/>
+* 类加载机制  <br/>
 等几部分。</p>
 
 <!--more-->
