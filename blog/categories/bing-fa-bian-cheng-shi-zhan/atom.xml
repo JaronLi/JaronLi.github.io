@@ -4,7 +4,7 @@
   <title><![CDATA[Category: 并发编程实战 | 踏雪无痕]]></title>
   <link href="http://www.dxyds.com/blog/categories/bing-fa-bian-cheng-shi-zhan/atom.xml" rel="self"/>
   <link href="http://www.dxyds.com/"/>
-  <updated>2016-04-24T22:21:44+08:00</updated>
+  <updated>2016-04-24T22:26:37+08:00</updated>
   <id>http://www.dxyds.com/</id>
   <author>
     <name><![CDATA[李吉龙（Jaron）]]></name>
@@ -22,7 +22,8 @@
 
 <p>  多线程是非常重要的一部分知识，如果没有多线程那么会出现什么情况？&lt;&ndash;!more&ndash;>试想单线程时出现阻塞 <br/>
 的情况下，整个程序都停止执行，这种情况下是否会想有没有更好的方式？多线程能够在一个线程因为等待I/O <br/>
-或者其他情况阻塞时继续执行其他线程，充分利用cpu资源。</p>
+或者其他情况阻塞时继续执行其他线程，充分利用cpu资源。 <br/>
+&lt;&ndash;!more&ndash;></p>
 
 <h3>相关名词</h3>
 
